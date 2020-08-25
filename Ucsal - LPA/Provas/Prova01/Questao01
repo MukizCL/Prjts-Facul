@@ -1,0 +1,18 @@
+package br.ucsal;
+
+public class Questao01 {
+
+    public static void main(String[] args) {
+        int vInicial = 0, vPosterior = 1, vAux, contador = 0, somaTotal = 0;
+        while (contador < 30) {
+            vAux = vInicial + vPosterior;
+            somaTotal += vInicial;
+            vInicial = vPosterior;
+            vPosterior = vAux;
+            contador++;
+        }
+        
+        System.out.println(somaTotal);
+    }
+
+}
