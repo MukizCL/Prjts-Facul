@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <main>
+            <form>            
+                <div>
+                    <div style="width: 300px; float: left;">
+                        <fieldset style="height: 150px;">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <strong style="font-size: 30px;">Dados do pet</strong>
+                                    </tr>
+                                </thead>
+                                
+                                <tbody>
+                                    <tr>
+                                        <td>Nome</td>
+                                        <td><label for="nome-pet"><input type="text" id="nome-pet" size="25"></label></td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>Idade</td>
+                                        <td><label for="idade-pet"><input type="text" id="idade-pet" size="25"></label></td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>Espécie:</td>
+                                        <td><select><option>Felina</option><option>Canina</option><option>Ave</option></select></td>
+                                    </tr>
+        
+                                    <tr>
+                                        <td>Sexo: </td>
+                                        <td><label for="radio-masc"><input type="radio" name="sexo" value="Email" id="radio-masc">Macho</label> <label for="radio-fem"><input type="radio" name="sexo" value="Email" id="radio-fem">Fêmea</label></td>
+                                    </tr>
+                                </tbody>
+                            </table>                            
+                        </fieldset>                    
+                    </div>
+
+                    <div style="margin-left: 300px; width: 300px;">
+                        <fieldset style="height: 150px;">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <strong style="font-size: 30px;">Dados tutor</strong>                          
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Nome: </td>
+                                        <td><label for="nome-tutor"><input type="text" id="nome-tutor" size="25"></label></td> 
+                                    </tr>
+        
+                                    <tr>
+                                        <td>Endereço</td>
+                                        <td><label for="endereco-tutor"><input type="text" id="endereco-tutor" size="25"></label></td> 
+                                    </tr>
+        
+                                    <tr>
+                                        <td>Telefone: </td>
+                                        <td><label for="telefone-tutor"><input type="tel" id="telefone-tutor" size="25"></label></td> 
+                                    </tr>
+        
+                                    <tr>
+                                        <td>E-mail:</td>
+                                        <td><label for="email-tutor"><input type="email" id="email-tutor" size="25" placeholder="digite seu email"></td> 
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <div style="padding-left: 200px;">
+                        <button style="width: 10%; height: 30px;" type="submit">Cadastrar</button>
+                        <button style="width: 10%; height: 30px;" type="reset">Limpar</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
