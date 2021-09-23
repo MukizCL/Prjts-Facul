@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: "PT Sans", Arial, Helvetica, sens-sans-serif;
+  margin-left: 0;
+  padding: 0;
+}
+
+main {
+  width: 1600px;
+  margin: 0 auto 0 auto;
+}
+
+header {
+  display: block;
+  background: url("../imagens/banner_01.png") top left no-repeat;
+  border-width: 5px;
+  border-color: lightgray;
+  border-style: solid;
+  box-shadow:
+}
+
+header .img_icone {
+  padding: 30px;
+  display: block;
+  float: left;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: "Grechen Fuemen";
+  margin: 100px 0px 0px;
+  font-size: 80px;
+  padding: 0;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 3px 0 0 #000, 0 -3px 0 #000, 0 3px 0 #000, -3px 0 0 #000;
+}
+
+header #menu_social {
+  padding-top: 190px;
+  height: 34px;
+  float: right;
+}
+
+header #menu_social ul {
+margin-right: 50px;
+}
+
+header #menu_social ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+
+header #menu_social ul li a {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-left: 5px;
+  text-indent: -999999px;
+}
+
+header #menu_social ul li a.gw2 {
+  background: url("../imagens/gw2.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.gw2 {
+  background: url("../imagens/gw2.png") no-repeat;
+  transition: 300ms;
+  filter: none;
+}
+
+header #menu_social ul li a.wow {
+  background: url("../imagens/wow.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.wow {
+  background: url("../imagens/wow.png") no-repeat;
+  transition: 300ms;
+  filter: none;
+}
+
+header #menu_social ul li a.eso {
+  background: url("../imagens/eso.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.eso {
+  background: url("../imagens/eso.png") no-repeat;
+  transition: 300ms;
+  filter: none;
+}
+
+header #menu_social ul li a.ff14 {
+  background: url("../imagens/ff14.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.ff14 {
+  background: url("../imagens/ff14.png") no-repeat;
+  transition: 300ms;
+  filter: none;
+}
+
+header #menu_social ul li a.osrs {
+  background: url("../imagens/osrs.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.osrs {
+  background: url("../imagens/osrs.png") no-repeat;
+  transition: 300ms;
+  filter: none;
+}
+
+header #menu_social ul li a.newworld {
+  background: url("../imagens/newworld.png") no-repeat;
+  filter: grayscale();
+}
+
+header #menu_social ul li a:hover.newworld {
+  background: url("../imagens/newworld.png") no-repeat;
+transition: 300ms;
+  filter: none;
+}
+
+header #menu_principal {
+  border-top: lightgray solid 5px;
+  background-color: #4e5053;
+  clear: both;
+  width: 1590px;
+  height: 40px;
+}
+
+header #menu_principal ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  float: left;
+}
+
+header #menu_principal ul li {
+  padding: 0 95px 0 95px;
+  list-style: none;
+  float: left;
+}
+
+header #menu_principal ul li a {
+  display: block;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 20px;
+  color: #cccccc;
+  text-decoration: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  float: left;
+}
+
+header #menu_principal ul li a:hover {
+  color: #ffffff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  transition: 300ms;
+}
+
+#banner {
+  padding: 20px 0 0 50px;
+}
+
+#banner .img_banner {
+  display: block;
+  width: 1494px;
+  height: 420px;
+}
+
+#banner .img_banner:hover {
+  filter: blur(3px);
+  transition: 500ms;
+}
+
+#banner:hover .texto_banner {
+  transition: 300ms;
+}
+
+#banner .texto_banner {
+  position: absolute;
+  top: 610px;
+  right: 500px;
+  display: block;
+  width: 750px;
+  height: 10px;
+  text-align: center;
+  font-size: 26px;
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#banner .botao_banner {
+  position: absolute;
+  top: 720px;
+  right: 800px;
+  display: block;
+  width: 150px;
+  height: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  background: #cccccc;
+  border: #cccccc 5px solid;
+  border-radius: 15px;
+}
+
+#banner .botao_banner:hover {
+  background: #ffffff;
+  border: #ffffff 5px solid;
+  border-radius: 15px;
+  transition: 500ms;
+}
+
+#conteudo {
+  display: block;
+  margin: 0;
+  padding: 10px 0 50px 0;
+  float: left;
+}
+
+#conteudo ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 50px 0 50px;
+}
+
+#conteudo ul li {
+  margin: 0;
+  padding: 0;
+}
+
+#conteudo .chamada {
+  float: left;
+  margin: 0 0px 0 0px;
+  padding: 0;
+  width: 1600px;
+}
+
+#conteudo .img_chamada {
+  float: left;
+  padding: 0px;
+  margin-left: 0;
+  border: 3px solid transparent;
+}
+
+#conteudo .chamada:hover .img_chamada {
+  border: #404040 3px solid;
+  transition: 200ms border;
+}
+
+#conteudo .escrita_chamada {
+  padding: 20px 0 0 40px;
+  margin-left: 700px;
+}
+
+#conteudo .titulo_chamada {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+#conteudo .chamada:hover .titulo_chamada {
+  text-decoration-line: underline;
+}
+
+#conteudo .texto_chamada {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#conteudo a.leia {
+  background: #aaaaaa;
+  border: #444444 solid 2px;
+  padding: 10px;
+  margin-top: 125px;
+  margin-right: 25px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  float: right;
+}
+
+#conteudo a:hover.leia {
+  background: #1bbd1b;
+  transition: 500ms;
+}
+
+footer {
+  margin: 0 0 0 50px;
+  background: #efefef;
+  height: 70px;
+  clear: both;
+}
+
+footer .texto_rodape {
+  padding: 30px 0 0 30px;
+  font-size: 19px;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  text-transform: uppercase;
+}
